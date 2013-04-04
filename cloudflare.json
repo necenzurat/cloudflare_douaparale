@@ -1,0 +1,53 @@
+{
+    "name": "2Parale Linker",
+    "category": "Affiliate",
+    "description": "2parale Auto Linker",
+    "keywords" : [
+        "affiliate links"
+        ],
+    "version": "0.0.1",
+    "contributors": [
+    {
+        "name" : "Costin 'necenzurat' Moise",
+        "email" : "necenzurat@gmail.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/necenzurat/cloudflare_douaparale.git"
+        },
+        "main" : "./public/javascripts/douaparale.js",
+        "dependencies" : {
+        },
+        "licenses" : [
+        {
+            "type": "WTFPL",
+            "url": "http://www.wtfpl.net/txt/copying/"
+		}],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        "config" : {
+            "assets" : {
+                "logos" : {
+                    "132px": "./public/images/2parale-132.png"
+                },
+                "detail_page" : []
+            },
+            "payment": {},
+            "details": {
+               "Category": "Content Monetization",
+               "Language": "English",
+               "Restrictions": "None"
+           },
+            "interface": [
+            {
+                "id": "2p_aff_code",
+                "name": "2Parale Affiliate ID",
+                "description": "",
+                "type": "string"
+                },
+          
+            ]
+        }
+}
