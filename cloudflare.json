@@ -3,7 +3,7 @@
     "category": "Affiliate",
     "description": "2parale Auto Linker",
     "keywords" : [
-        "affiliate links"
+        "webmaster"
         ],
     "version": "0.0.1",
     "contributors": [
@@ -31,12 +31,11 @@
             "assets" : {
                 "logos" : {
                     "132px": "./public/images/2parale-132.png"
-                },
-                "detail_page" : []
+                }
             },
             "payment": {},
             "details": {
-               "Category": "Content Monetization",
+               "Category": "Webmaster Tools",
                "Language": "English",
                "Restrictions": "None"
            },
@@ -46,7 +45,7 @@
                 "name": "2Parale Affiliate ID",
                 "description": "",
                 "type": "string"
-                },
+                }
           
             ]
         }
