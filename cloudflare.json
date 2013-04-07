@@ -5,7 +5,7 @@
     "keywords" : [
         "webmaster"
         ],
-    "version": "0.3",
+    "version": "0.4",
     "contributors": [
     {
         "name" : "Costin 'necenzurat' Moise",
@@ -24,13 +24,13 @@
             "type": "WTFPL",
             "url": "http://www.wtfpl.net/txt/copying/"
 		}],
-        "implements" : "AMD",
         "scripts" : {
         },
         "config" : {
             "assets" : {
                 "logos" : {
-                    "132px": "./public/images/2parale-132.png"
+                    "132px": "./public/images/2parale-132.png",
+                    "200px": "./public/images/2parale-200.png"
                 }
             },
             "payment": {},
@@ -43,7 +43,7 @@
             {
                 "id": "2p_aff_code",
                 "name": "2Parale Affiliate ID",
-                "description": "",
+                "description": "Please read more about the app on where to find this code",
                 "type": "string"
                 }
           
