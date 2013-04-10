@@ -1,52 +1,33 @@
 {
     "name": "2Parale Linker",
+    "description": "Converts possible links to 2parale links.",
+    "version": "0.5",
     "category": "affiliate links",
-    "description": "2parale Auto Linker",
-    "keywords" : [
-        "webmaster"
-        ],
-    "version": "0.4",
-    "contributors": [
-    {
-        "name" : "Costin 'necenzurat' Moise",
-        "email" : "necenzurat@gmail.com"
-    }
-    ],
-        "repository" : {
-            "type" : "git",
-            "url" : "https://github.com/necenzurat/cloudflare_douaparale.git"
+    "main": "public/javascripts/douaparale.js",
+    "config":{
+        "details":{
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None",
+            "TOS":"http://event.2parale.ro/events/click?ad_type=quicklink&aff_code=0795f0f4f&unique=2b4e169e6&redirect_to=http%253A%252F%252Fwww.2parale.ro%252Fhome%252Fterms"
+        }, 
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/2parale-200.png",
+                "132px": "./public/images/2parale-132.png"
+            }
         },
-        "main" : "./public/javascripts/douaparale.js",
-        "dependencies" : {
-        },
-        "licenses" : [
-        {
-            "type": "WTFPL",
-            "url": "http://www.wtfpl.net/txt/copying/"
-		}],
-        "scripts" : {
-        },
-        "config" : {
-            "assets" : {
-                "logos" : {
-                    "132px": "./public/images/2parale-132.png",
-                    "200px": "./public/images/2parale-200.png"
-                }
-            },
-            "payment": {},
-            "details": {
-               "Category": "Webmaster Tools",
-               "Language": "English",
-               "Restrictions": "None"
-           },
-            "interface": [
+        "has_js": true,
+         "interface": [
             {
                 "id": "2p_aff_code",
                 "name": "2Parale Affiliate ID",
-                "description": "Please read more about the app on where to find this code",
+                "description": "The 2p_aff_code can be found ",
                 "type": "string"
                 }
           
             ]
-        }
+    },
+    "account": false,
+    "billing": false
 }
